@@ -3,7 +3,7 @@ self.addEventListener("install", (e) => {
     caches
       .open("static")
       ?.then((cache) =>
-        cache.addAll(["./images/logo192.png", "./src/style.css"])
+        cache.addAll(["./", "./images/logo192.png", "./src/style.css"])
       )
   );
 });
