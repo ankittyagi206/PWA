@@ -7,13 +7,7 @@ const successCallback = () => {
 const errorCallback = () => {
   console.log("video error");
 };
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.getRegistrations().then(function (registrations) {
-    for (const registration of registrations) {
-      registration.unregister();
-    }
-  });
-}
+
 cameraBtn.addEventListener("click", async function init(e) {
   console.log("hello");
   try {
