@@ -1,0 +1,23 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankittyagi206/PWA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankittyagi206/PWA/issues"
+  },
+  "homepage": "https://github.com/ankittyagi206/PWA#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
